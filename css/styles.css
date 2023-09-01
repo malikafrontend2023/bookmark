@@ -184,6 +184,29 @@ select:-webkit-autofill:focus {
   display: block;
   width: 100%;
 }
+
+
+/* LOGO */
+.logo {
+  display: block;
+  text-decoration: none;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.8;
+}
+
+.logo__img {
+  display: block;
+  width: 149px;
+  height: 25px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
