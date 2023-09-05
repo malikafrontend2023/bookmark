@@ -1,1 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="659" height="466" fill="none"><g filter="url(#a)"><g filter="url(#b)"><rect width="578" height="385" x="40.5" y="10.5" fill="#777" rx="26"/></g><rect width="574.23" height="381.865" x="42.5" y="12.5" fill="url(#c)" rx="25"/><rect width="471.463" height="353.756" x="94.531" y="26.803" fill="#2A2A2A" opacity=".1" rx="5"/><rect width="536" height="346" x="61.531" y="29.803" fill="#E8EAF6" rx="8"/><mask id="d" width="537" height="347" x="61" y="29" maskUnits="userSpaceOnUse" style="mask-type:luminance"><rect width="536" height="346" x="61.531" y="29.803" fill="#fff" rx="8"/></mask><g mask="url(#d)"><path fill="#5267DF" d="M58 30h547v59H58z"/><g fill="#fff"><circle cx="100" cy="60" r="16" opacity=".245"/><circle cx="561" cy="60" r="16" opacity=".104"/><rect width="120" height="6" x="131" y="50" opacity=".75" rx="3"/><rect width="64" height="6" x="131" y="64" opacity=".25" rx="3"/></g><rect width="261" height="316" x="118.53" y="122.803" fill="#fff" rx="8"/><rect width="128" height="316" x="413.53" y="122.803" fill="#fff" rx="8"/><rect width="120" height="6" x="197" y="161" fill="#242A45" opacity=".5" rx="3"/></g><circle cx="166" cy="171" r="16" fill="#F98E5D"/><rect width="88" height="6" x="434" y="145" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="434" y="165" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="434" y="185" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="434" y="205" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="434" y="239" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="434" y="259" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="434" y="279" fill="#242A45" opacity=".25" rx="3"/><rect width="64" height="6" x="197" y="175" fill="#242A45" opacity=".25" rx="3"/><circle cx="166" cy="227" r="16" fill="#6AC6D6"/><rect width="120" height="6" x="197" y="217" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="197" y="231" fill="#242A45" opacity=".25" rx="3"/><circle cx="166" cy="283" r="16" fill="#A47ED4"/><rect width="120" height="6" x="197" y="273" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="197" y="287" fill="#242A45" opacity=".25" rx="3"/><circle cx="166" cy="339" r="16" fill="#EC7878"/><rect width="120" height="6" x="197" y="329" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="197" y="343" fill="#242A45" opacity=".25" rx="3"/></g><defs><filter id="a" width="586" height="393" x="36.5" y="8.5" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="2"/><feGaussianBlur stdDeviation="2"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_0_372"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_0_372" result="shape"/></filter><filter id="b" width="658" height="465" x=".5" y=".5" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="30"/><feGaussianBlur stdDeviation="20"/><feColorMatrix values="0 0 0 0 0.182433 0 0 0 0 0.230633 0 0 0 0 0.506058 0 0 0 0.20012 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_0_372"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_0_372" result="shape"/></filter><linearGradient id="c" x1="888.042" x2="548.325" y1="206.406" y2="-304.444" gradientUnits="userSpaceOnUse"><stop stop-color="#151515"/><stop offset="1" stop-color="#3D3D3D"/></linearGradient></defs></svg>
+<svg width="578" height="385" viewBox="0 0 578 385" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2">
+<g id="Group 40">
+<g id="Group 52">
+<rect id="Rectangle Copy 3" width="578" height="385" rx="26" fill="#777777"/>
+<rect id="Rectangle Copy 5" x="2" y="2" width="574.23" height="381.865" rx="25" fill="url(#paint0_linear_0_372)"/>
+<g id="GoViral - Wordpress Theme">
+<rect id="Mask Copy" opacity="0.1" x="54.0304" y="16.3029" width="471.463" height="353.756" rx="5" fill="#2A2A2A"/>
+<rect id="Mask" x="21.0304" y="19.3029" width="536" height="346" rx="8" fill="#E8EAF6"/>
+<mask id="mask0_0_372" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="21" y="19" width="537" height="347">
+<rect id="Mask_2" x="21.0304" y="19.3029" width="536" height="346" rx="8" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_372)">
+<g id="Group 28">
+<rect id="Rectangle" x="17.5" y="19.5" width="547" height="59" fill="#5267DF"/>
+<g id="Group 7">
+<circle id="Oval" opacity="0.244768" cx="59.5" cy="49.5" r="16" fill="white"/>
+<circle id="Oval Copy" opacity="0.104399" cx="520.5" cy="49.5" r="16" fill="white"/>
+<g id="Group 6">
+<rect id="Rectangle_2" opacity="0.75" x="90.5" y="39.5" width="120" height="6" rx="3" fill="white"/>
+<rect id="Rectangle Copy 6" opacity="0.25" x="90.5" y="53.5" width="64" height="6" rx="3" fill="white"/>
+</g>
+</g>
+</g>
+<g id="Group 26">
+<rect id="Rectangle_3" x="78.0304" y="112.303" width="261" height="316" rx="8" fill="white"/>
+<rect id="Rectangle Copy 7" x="373.03" y="112.303" width="128" height="316" rx="8" fill="white"/>
+<rect id="Rectangle_4" opacity="0.5" x="156.5" y="150.5" width="120" height="6" rx="3" fill="#242A45"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 29">
+<circle id="Oval_2" cx="125.5" cy="160.5" r="16" fill="#F98E5D"/>
+<rect id="Rectangle_5" opacity="0.25" x="393.5" y="134.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 8" opacity="0.25" x="393.5" y="154.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 9" opacity="0.25" x="393.5" y="174.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 10" opacity="0.25" x="393.5" y="194.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 11" opacity="0.25" x="393.5" y="228.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 12" opacity="0.25" x="393.5" y="248.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 13" opacity="0.25" x="393.5" y="268.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_2" opacity="0.25" x="156.5" y="164.5" width="64" height="6" rx="3" fill="#242A45"/>
+</g>
+<g id="Group 29 Copy">
+<circle id="Oval_3" cx="125.5" cy="216.5" r="16" fill="#6AC6D6"/>
+<rect id="Rectangle_6" opacity="0.5" x="156.5" y="206.5" width="120" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_3" opacity="0.25" x="156.5" y="220.5" width="64" height="6" rx="3" fill="#242A45"/>
+</g>
+<g id="Group 29 Copy 2">
+<circle id="Oval_4" cx="125.5" cy="272.5" r="16" fill="#A47ED4"/>
+<rect id="Rectangle_7" opacity="0.5" x="156.5" y="262.5" width="120" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_4" opacity="0.25" x="156.5" y="276.5" width="64" height="6" rx="3" fill="#242A45"/>
+</g>
+<g id="Group 29 Copy 3">
+<circle id="Oval_5" cx="125.5" cy="328.5" r="16" fill="#EC7878"/>
+<rect id="Rectangle_8" opacity="0.5" x="156.5" y="318.5" width="120" height="6" rx="3" fill="#242A45"/>
+<rect id="Rectangle Copy 6_5" opacity="0.25" x="156.5" y="332.5" width="64" height="6" rx="3" fill="#242A45"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_372" x1="847.542" y1="195.906" x2="507.825" y2="-314.944" gradientUnits="userSpaceOnUse">
+<stop stop-color="#151515"/>
+<stop offset="1" stop-color="#3D3D3D"/>
+</linearGradient>
+</defs>
+</svg>
