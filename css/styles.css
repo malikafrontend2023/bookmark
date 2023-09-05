@@ -247,6 +247,39 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 
+
+/* SECTION */
+.section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.section__info {
+  width: 100%;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.section__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 52px;
+  font-weight: 500;
+  color: var(--black-color);
+}
+
+.section__discription {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--text-color-50);
+}
+
+
 /* SITE-HEADER */
 .site-header {
   padding-top: 48px;
@@ -318,6 +351,7 @@ select:-webkit-autofill:focus {
   border-radius: 25px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
