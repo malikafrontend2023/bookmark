@@ -2,6 +2,9 @@ const elsTabsItem = document.querySelectorAll('.tabs__item');
 const elsTabsPanel = document.querySelectorAll('.tabpanels__item');
 const elsTabLink = document.querySelectorAll('.js-tab-link');
 
+const elsAccordionItemToggler = document.querySelectorAll('.accordion__item-toggler');
+const elsAccordionItem = document.querySelectorAll('.accordion__item');
+
 
 function deactivateTavItems () {
   elsTabsItem.forEach(function(elTabsItem){
@@ -13,6 +16,12 @@ function deactivateTavPanels () {
   elsTabsPanel.forEach(function(elTabsPanel){
     elTabsPanel.classList.remove('tabpanels__item--active')
   });
+}
+
+function closeAccordionItems () {
+  elsAccordionItem.forEach(function (elAccordionItem) {
+    elAccordionItem.classList.remove('accordion__item--open')
+  })
 }
 
 elsTabLink.forEach(function(elTabLink){
@@ -37,5 +46,15 @@ elsTabLink.forEach(function(elTabLink){
     elTargetPanel.classList.add('tabpanels__item--active');
 
     console.log(elTabLink.dataset.tabTarget);
-    })
+  });
+
+})
+
+
+elsAccordionItemToggler.forEach(function (elAccordionItemToggler) {
+  elAccordionItemToggler.addEventListener('click', function () {
+    closeAccordionItems();
+
+    elAccordionItemToggler.closest('.accordion__item').classList.add('accordion__item--open')
   })
+})

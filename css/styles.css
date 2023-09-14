@@ -12,7 +12,7 @@
 @font-face {
   font-family: "Rubik";
   src: url("../fonts/Rubik-Medium.woff2") format("woff2"),
-  url("../fonts/Rubik-Medium.woff") format("woff");
+    url("../fonts/Rubik-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -21,7 +21,7 @@
 @font-face {
   font-family: "Rubik";
   src: url("../fonts/Rubik-Regular.woff2") format("woff2"),
-  url("../fonts/Rubik-Regular.woff") format("woff");
+    url("../fonts/Rubik-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -356,7 +356,7 @@ select:-webkit-autofill:focus {
   letter-spacing: 0.5px;
 }
 
-.tabs__item--active .tabs__link{
+.tabs__item--active .tabs__link {
   color: var(--black-color);
   border-color: var(--red-color);
 }
@@ -369,6 +369,8 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 
+
+/* TABPANELS */
 .tabpanels {
   padding-top: 38px;
   padding-bottom: 165px;
@@ -385,6 +387,93 @@ select:-webkit-autofill:focus {
   display: block;
 }
 
+
+/* ACCORDION */
+.accordion {
+  border-top: 1px solid rgba(36, 42, 69, 0.15);
+}
+
+.accordion__item {
+  border-bottom: 1px solid rgba(36, 42, 69, 0.15);
+}
+
+.accordion__item-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 13px;
+}
+
+.acctordion__item-title {
+  flex-grow: 1;
+  margin: 0;
+  margin-right: 24px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--black-color);
+}
+
+.accordion__item-header:hover .acctordion__item-title {
+  color: var(--red-color);
+}
+
+.accordion__item-toggler {
+  border: 0;
+  padding: 0;
+  padding-right: 21px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.accordion__item-toggler:focus {
+  outline: none;
+}
+
+.accordion__item-toggler::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
+.accordion__item-toggler:focus::before {
+  outline: auto;
+}
+
+.accordion__item-toggler-icon {
+  display: block;
+  width: 20px;
+  height: 13px;
+  color: var(--accent-color);
+}
+
+.accordion__item--open .accordion__item-toggler-icon {
+  transform: rotate(180deg);
+  color: var(--red-color);
+}
+
+.accordion__item-content {
+  display: none;
+  padding-top: 19px;
+  padding-bottom: 29px;
+  color: var(--text-color-75);
+}
+
+.accordion__item--open .accordion__item-content {
+  display: block;
+}
+
+.accordion__item-text {
+  margin: 0;
+}
+
+.accordion__item-text:not(:last-child) {
+  margin-bottom: 20px;
+}
 
 
 /* SITE-HEADER */
@@ -484,8 +573,8 @@ select:-webkit-autofill:focus {
   margin-bottom: 0;
   margin-left: -35px;
   list-style: none;
+  flex-wrap: wrap;
 }
-
 
 .extensions__item {
   width: 100%;
@@ -493,11 +582,11 @@ select:-webkit-autofill:focus {
   margin-left: 35px;
 }
 
-.extensions__item:nth-child(2) {
+.extensions__item:nth-child(3n + 2) {
   margin-top: 40px;
 }
 
-.extensions__item:last-child {
+.extensions__item:nth-child(3n) {
   margin-top: 80px;
 }
 
@@ -550,12 +639,32 @@ select:-webkit-autofill:focus {
   margin-bottom: 60px;
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
 
+/* FAQ */
+.faq {
+  padding-top: 38px;
+  padding-bottom: 150px;
 }
+
+.faq__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 540px;
+  margin-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq__accordion {
+  width: 100%;
+  margin-bottom: 54px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {}
