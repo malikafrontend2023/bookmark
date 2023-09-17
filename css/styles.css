@@ -239,6 +239,11 @@ select:-webkit-autofill:focus {
   color: var(--black-color);
 }
 
+.sitenav-white .sitenav__link{
+  color: #fff;
+}
+
+
 .sitenav__link:hover {
   color: var(--red-color);
 }
@@ -473,6 +478,36 @@ select:-webkit-autofill:focus {
 
 .accordion__item-text:not(:last-child) {
   margin-bottom: 20px;
+}
+
+/* SOCIALS */
+.socials {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.socials__link {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials__link:hover {
+  color: var(--red-color);
+}
+
+.socials__link:active {
+  opacity: 0.6;
+}
+
+.socials__icon {
 }
 
 
@@ -754,6 +789,26 @@ select:-webkit-autofill:focus {
 .subscription__field:valid + .subscription__error,
 .subscription__field:placeholder-shown + .subscription__error {
   display: none;
+}
+
+/* SITE-FOOTER */
+.site-footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--black-color);
+}
+
+.site-footer__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer__logo {
+  margin-right: 63px;
+}
+
+.site-footer__sitenav {
+  margin-right: auto;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
